@@ -111,7 +111,7 @@ const database = {
     }, {
         id: 11, productId: 4, employeeId: 1, timestamp: 1612338112396
     }, {
-        id: 12, productId: 6, employeeId: 11, timestamp: 1612238112396
+        id: 12, productId: 6, employeeId: 2, timestamp: 1612238112396
     }, {
         id: 13, productId: 10, employeeId: 8, timestamp: 1630538112396
     }, {
@@ -126,14 +126,14 @@ const database = {
 }
 
 export const getProducts = () => {
-    return database.products.map(product => ({...product}))
+    return database.products.map(product => ({ ...product }))
 }
 
 export const getEmployees = () => {
-    return database.employees.map(employee => ({...employee}))
+    return database.employees.map(employee => ({ ...employee }))
 }
 
 export const getOrders = () => {
-    return database.orders.map(order => ({...order}))
+    return database.orders.map(order => ({ ...order }))
 }
 
