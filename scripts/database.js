@@ -120,9 +120,11 @@ const database = {
         id: 15, productId: 3, employeeId: 3, timestamp: 1612938112396
     }, {
         id: 16, productId: 4, employeeId: 7, timestamp: 1612638112396
-    }, {
+    }
+        , {
         id: 17, productId: 4, employeeId: 10, timestamp: 1612638112396
-    }]
+    }
+    ]
 }
 
 export const getProducts = () => {
